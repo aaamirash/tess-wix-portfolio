@@ -4,7 +4,13 @@ module.exports = {
     "./public/index.html"
   ],
   theme: {
-    extend: {},
+    extend: {
+    fontFamily: {
+      charm: ['Charm', 'cursive'],
+      explora: ['Explora', 'serif'],
+      gidole: ['Gidole', 'sans-serif'],
+    }
+  }
   },
   plugins: [],
 };

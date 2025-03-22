@@ -4,16 +4,22 @@ import LandingPage from "./pages/LandingPage";
 import Bio from "./pages/Bio";
 import Media from "./pages/Media";
 import Header from "./components/Header";
+import Footer from "./components/Footer"; 
 
 const App = () => {
   return (
     <Router>
-      <Header />
-      <Routes>
-        <Route path="/" element={<LandingPage />} />
-	<Route path="/bio" element={<Bio />} />
-        <Route path="/media" element={<Media />} />
-      </Routes>
+      <div className="flex flex-col min-h-screen">
+        <Header />
+        <main className="flex-grow">
+          <Routes>
+            <Route path="/" element={<LandingPage />} />
+            <Route path="/biography" element={<Bio />} />
+            <Route path="/media" element={<Media />} />
+          </Routes>
+        </main>
+        <Footer /> 
+      </div>
     </Router>
   );
 };
