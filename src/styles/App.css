@@ -1,5 +1,5 @@
 .background {
-  background-image: url('/home/avesta/twix/src/assets/images/tess_singing.jpg');
+  background-image: url('https://storage.googleapis.com/twix-bucket/Images/background.jpg');
   background-size: cover; /* Ensures the image covers the whole container */
   background-position: center; /* Centers the image */
   background-repeat: no-repeat; /* Prevents tiling */
