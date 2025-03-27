@@ -5,13 +5,15 @@ import Bio from "./pages/Bio";
 import Media from "./pages/Media";
 import Header from "./components/Header";
 import Footer from "./components/Footer"; 
+import './styles/App.css';
+
 
 const App = () => {
   return (
     <Router>
       <div className="flex flex-col min-h-screen">
         <Header />
-        <main className="flex-grow">
+        <main className="flex-grow bg-black text-white">
           <Routes>
             <Route path="/" element={<LandingPage />} />
             <Route path="/biography" element={<Bio />} />

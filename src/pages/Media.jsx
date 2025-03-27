@@ -2,22 +2,20 @@ import React from 'react';
 import '../styles/App.css'; // Reuse styles if needed
 import MediaPlayer from '../components/ui/MediaPlayer';
 import Card from '../components/ui/Card';
-import video1 from '../assets/videos/AchIch.mp4';
-import thumb1 from '../assets/images/tess_singing.jpg';
 
 const mediaItems = [
   {
     id: 1,
     type: 'video',
     title: 'Ach Ich Fuhls',
-    src: video1,
-    thumbnail: thumb1
+    src: 'https://storage.cloud.google.com/twix-bucket/Videos/AchIch.mp4',
+    thumbnail: 'https://storage.cloud.google.com/twix-bucket/Images/flute.jpg'
   }
 ];
 
 const Media = () => {
   return (
-    <div className="media-page">
+    <div className="bg-black text-white min-h-screen px-6 py-12 font-gidole">
       <h1>Media Gallery</h1>
       <div className="media-grid" style={{ display: 'flex', flexWrap: 'wrap', justifyContent: 'center' }}>
         {mediaItems.map((item) => (
