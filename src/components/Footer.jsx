@@ -18,7 +18,7 @@ const Footer = () => {
         </div>
 
         <p className="text-sm font-gidole text-center">
-          &copy; {new Date().getFullYear()} Test Name. All rights reserved.
+          &copy; {new Date().getFullYear()}  All rights reserved.
         </p>
       </div>
     </footer>

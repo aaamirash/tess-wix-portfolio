@@ -7,7 +7,6 @@ const LandingPage = () => {
   return (
     <div className="background">
       <h1 className="text-8xl font-explora font-bold mb-4 text-center">
-	<Link to="/" className="hover:scale-105 transition-transform duration-200 inline-block">The GOAT</Link>
       </h1>
     </div>
   );

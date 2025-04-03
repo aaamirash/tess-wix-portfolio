@@ -35,3 +35,7 @@ src/assets/images/uploads/
 # Optional: Avoid including package lock if using yarn
 package-lock.json
 
+
+build
+node_modules
+README.md
